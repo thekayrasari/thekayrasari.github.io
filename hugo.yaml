@@ -2,6 +2,7 @@ baseURL: "https://thekayrasari.github.io/"
 languageCode: "en-us"
 title: "Kayra Sari"
 theme: "PaperMod"
+defaultContentLanguage: "en"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,56 +13,81 @@ minify:
   disableXML: true
   minifyOutput: true
 
-params:
-  env: production
-  title: "Kayra Sari"
-  description: "Kayra Sari, an aspiring aerospace engineer."
-  keywords: [Blog, Portfolio, Projects]
-  author: "Kayra Sari"
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    params:
+      description: "Kayra Sari, an aspiring aerospace engineer."
+      profileMode:
+        enabled: true
+        title: "Kayra Sari"
+        subtitle: "I am a high school student dedicated to mastering the fundamentals of Aerospace Engineering through hands-on projects in CAD, rocketry, and robotics."
+        imageUrl: "profile.jpg"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: "Kayra Sari"
+        buttons:
+          - name: Articles
+            url: /articles
+          - name: Projects
+            url: /projects
 
-  defaultTheme: auto
-  disableThemeToggle: false
+  de:
+    languageName: "Deutsch"
+    weight: 2
+    params:
+      description: "Kayra Sari, ein angehender Luft- und Raumfahrtingenieur."
+      profileMode:
+        enabled: true
+        title: "Kayra Sari"
+        subtitle: "Ich bin ein Schüler, der sich der Beherrschung der Grundlagen der Luft- und Raumfahrttechnik durch praktische Projekte in CAD, Raketentechnik und Robotik widmet."
+        imageUrl: "profile.jpg"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: "Kayra Sari"
+        buttons:
+          - name: Artikel
+            url: /de/articles
+          - name: Projekte
+            url: /de/projects
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: false
-
-  profileMode:
-    enabled: true
+  params:
+    env: production
     title: "Kayra Sari"
-    subtitle: "I am a high school student dedicated to mastering the fundamentals of Aerospace Engineering through hands-on projects in CAD, rocketry, and robotics."
-    imageUrl: "profile.jpg"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: "Kayra Sari"
-    buttons:
-      - name: Articles
-        url: /articles
-      - name: Projects
-        url: /projects
+    description: "Kayra Sari, an aspiring aerospace engineer."
+    keywords: [Blog, Portfolio, Projects]
+    author: "Kayra Sari"
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/thekayrasari"
-    - name: twitter
-      url: "https://x.com/thekayrasari"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/thekayrasari/"    
-    - name: email
-      url: "mailto:thekayrasari@gmail.com"
+    defaultTheme: auto
+    disableThemeToggle: false
 
-outputs:
-  home:
-    - HTML
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowWordCount: true
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: true
+    tocopen: false
+
+    socialIcons:
+      - name: github
+        url: "https://github.com/thekayrasari"
+      - name: twitter
+        url: "https://x.com/thekayrasari"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/thekayrasari/"    
+      - name: email
+        url: "mailto:thekayrasari@gmail.com"
+
+  outputs:
+    home:
+      - HTML
