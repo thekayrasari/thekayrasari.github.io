@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Space Weather on Kayra Sari</title>
+    <link>http://localhost:1313/tags/space-weather/</link>
+    <description>Recent content in Space Weather on Kayra Sari</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/space-weather/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The November 2025 Airbus A320 Grounding: A Technical Analysis of Aviation&#39;s Collision with Space Weather</title>
+      <link>http://localhost:1313/articles/a320-grounding/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/a320-grounding/</guid>
+      <description>A detailed technical examination of the 2025 Airbus A320-family grounding triggered by solar radiation-induced data corruption in flight-control computers, exploring the incident, investigation, regulatory response, and long-term implications for aviation resilience against cosmic threats.</description>
+    </item>
+  </channel>
+</rss>
