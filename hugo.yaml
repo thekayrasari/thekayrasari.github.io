@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Kayra Sari"
 theme: "PaperMod"
 defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -29,9 +30,9 @@ languages:
         imageTitle: "Kayra Sari"
         buttons:
           - name: Articles
-            url: /articles
+            url: /en/articles
           - name: Projects
-            url: /projects
+            url: /en/projects
 
   de:
     languageName: "Deutsch"
@@ -54,8 +55,6 @@ languages:
 
   params:
     env: production
-    title: "Kayra Sari"
-    description: "Kayra Sari, an aspiring aerospace engineer."
     keywords: [Blog, Portfolio, Projects]
     author: "Kayra Sari"
 
