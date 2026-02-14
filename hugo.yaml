@@ -1,9 +1,9 @@
 baseURL: "https://thekayrasari.github.io/"
+defaultContentLanguageInSubdir: true
 languageCode: "en-us"
 title: "Kayra Sari"
 theme: "PaperMod"
 defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: true
 
 enableRobotsTXT: true
 buildDrafts: false
