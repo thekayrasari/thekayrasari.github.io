@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Articles on Kayra Sari</title>
+    <link>http://localhost:1313/articles/</link>
+    <description>Recent content in Articles on Kayra Sari</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cirrus Vision Jet G3: Technical Analysis and Comparative Assessment</title>
+      <link>http://localhost:1313/articles/g3-comparison/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/g3-comparison/</guid>
+      <description>A comprehensive technical evaluation of the Cirrus Vision Jet G3, analyzing performance specifications, avionics upgrades, and operational improvements compared to G1, G2, and G2&#43; variants.</description>
+    </item>
+    <item>
+      <title>Next-Generation Aircraft Propulsion: A Comparative Analysis of Aviation Energy Sources</title>
+      <link>http://localhost:1313/articles/energy-sources/</link>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/energy-sources/</guid>
+      <description>A comprehensive technical evaluation of aviation energy sources for next-generation aircraft propulsion systems, comparing conventional jet fuel, sustainable aviation fuels, hydrogen, LNG, and battery-electric options.</description>
+    </item>
+    <item>
+      <title>Optimizing Engine Architecture: Bypass and Compression Ratio Trade-offs in Next-Generation Propulsion</title>
+      <link>http://localhost:1313/articles/next-generation-propulsion/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/next-generation-propulsion/</guid>
+      <description>A comprehensive technical analysis of bypass ratio and overall pressure ratio optimization for next-generation aircraft engines, examining the thermodynamic and structural trade-offs that govern modern turbofan design.</description>
+    </item>
+    <item>
+      <title>The November 2025 Airbus A320 Grounding: A Technical Analysis of Aviation&#39;s Collision with Space Weather</title>
+      <link>http://localhost:1313/articles/a320-grounding/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/a320-grounding/</guid>
+      <description>A detailed technical examination of the 2025 Airbus A320-family grounding triggered by solar radiation-induced data corruption in flight-control computers, exploring the incident, investigation, regulatory response, and long-term implications for aviation resilience against cosmic threats.</description>
+    </item>
+  </channel>
+</rss>
