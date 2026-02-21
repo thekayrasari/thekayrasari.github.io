@@ -53,14 +53,14 @@ params:
         url: /projects
 
   socialIcons:
-    - name: github
-      url: "https://github.com/thekayrasari"
-    - name: twitter
-      url: "https://x.com/thekayrasari"
+    - name: resume
+      url: "resume.pdf"
     - name: linkedin
-      url: "https://www.linkedin.com/in/thekayrasari/"    
+      url: "https://www.linkedin.com/in/thekayrasari/"        
     - name: email
       url: "mailto:thekayrasari@gmail.com"
+    - name: github
+      url: "https://github.com/thekayrasari"
 
 outputs:
   home:
