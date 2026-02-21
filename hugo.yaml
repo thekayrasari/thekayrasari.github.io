@@ -53,7 +53,7 @@ params:
         url: /projects
 
   socialIcons:
-    - name: resume
+    - name: cv
       url: "resume.pdf"
     - name: linkedin
       url: "https://www.linkedin.com/in/thekayrasari/"        
