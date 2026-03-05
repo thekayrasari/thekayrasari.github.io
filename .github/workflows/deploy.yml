@@ -1,0 +1,19 @@
+name: Deploy Hugo site
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+      - run: hugo --minify
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
