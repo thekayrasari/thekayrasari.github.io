@@ -1,5 +1,5 @@
 ---
-title: "The E6-B Flight Computer: A Deep Dive into Building a High-Fidelity Aviation Calculator in React"
+title: "The E6-B Flight Computer: Building a High-Fidelity Aviation Calculator in React"
 date: 2026-03-05
 tags: ["react", "svg", "interactive design", "web development", "aviation", "mathematics", "touch events", "responsive design"]
 author: ["Kayra Sari"]
