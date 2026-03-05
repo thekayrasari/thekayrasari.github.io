@@ -14,19 +14,19 @@ editPost:
 ---
 ---
 
-##### Download
+## Download
 
 [Download PDF](communicated.pdf)
 
 ---
 
-##### Abstract
+## Abstract
 
 Communication through dense materials remains a fundamental challenge in fields ranging from underground mining to submarine operations. This paper presents a muon-based wireless communication system that exploits the unique penetrating properties of cosmic ray muons. Using Helmholtz coils to generate controlled magnetic fields (0.12 T), we deflect muon trajectories to encode binary information. A dual scintillator detector system reads out the modulated muon flux, creating a binary communication channel. Our experimental setup, tested at CERN with a 4 GeV/c muon beam, achieves a measurable deflection of 1.1 cm over a 4-meter vertical path, sufficient for reliable signal discrimination. The system addresses hadron contamination through a Cherenkov veto trigger, ensuring clean muon identification. Thermal management calculations confirm operational stability with a temperature rise of 4.67°C/sec during field activation periods. This proof-of-concept demonstrates feasibility for communication in environments where traditional electromagnetic signals fail.
 
 ---
 
-##### Highlights
+## Highlights
 
 + **Novel Communication Method**: First demonstration of using modulated cosmic ray muons for wireless data transmission
 + **High Penetration**: Exploits muon's ability to penetrate solid obstructions (rock, water) where RF signals fail
@@ -37,7 +37,7 @@ Communication through dense materials remains a fundamental challenge in fields 
 
 ---
 
-##### Key Parameters
+## Key Parameters
 
 **Muon Properties:**
 - Momentum: 4 GeV/c (±15% spread)
@@ -60,7 +60,7 @@ Communication through dense materials remains a fundamental challenge in fields 
 
 ---
 
-##### Applications
+## Applications
 
 This muon-based communication system enables wireless transmission in challenging environments:
 
@@ -72,7 +72,7 @@ This muon-based communication system enables wireless transmission in challengin
 
 ---
 
-##### Citation
+## Citation
 
 Kayra Sari, Arhan Hasan Ünsal, Doruk Turan, Doruk Utku Tarım, Eren Demirel, Tuna Şahin, Uygar Yıldızcı, Yağmur Sude Mersin, and Kaan Emre Karabacak. 2025. "Communication On A Vertical Axis Using Cosmic Ray Muons." *CERN Beamline for Schools Competition*.
 
@@ -92,7 +92,7 @@ Kayra Sari, Arhan Hasan Ünsal, Doruk Turan, Doruk Utku Tarım, Eren Demirel, Tu
 ---
 
 
-##### Experimental Methodology
+## Experimental Methodology
 
 **Magnetic Field Generation:**
 
@@ -119,7 +119,7 @@ Threshold Cherenkov detector vetoes hadronic contamination (pions, kaons) in the
 
 ---
 
-##### Python Implementation
+## Python Implementation
 
 ```python
 import math
@@ -152,7 +152,7 @@ def getDrift():
 
 ---
 
-##### Acknowledgments
+## Acknowledgments
 
 We extend our deepest gratitude to **Bora Isildak** and **Eda Erdogan** for their invaluable technical guidance throughout the development of this experiment. Special thanks to our physics teacher, **Burcu Karabacak**, for introducing us to the CERN Beamline for Schools competition and providing unwavering support.
 
@@ -160,7 +160,7 @@ We sincerely thank **CERN** for making our dream possible by providing access to
 
 ---
 
-##### About CommunicaTED
+## About CommunicaTED
 
 We are a team of senior high school students from Turkey united by our passion for physics and innovation. Motivated by curiosity and a commitment to addressing real-world challenges, we aim to leverage fundamental physics principles—particularly in particle physics—to develop novel solutions across diverse fields. This project represents our collective effort to push the boundaries of wireless communication technology.
 

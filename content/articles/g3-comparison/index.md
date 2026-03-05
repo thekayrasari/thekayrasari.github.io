@@ -15,7 +15,7 @@ editPost:
 
 ---
 
-##### Executive Summary
+## Executive Summary
 
 The Cirrus Vision Jet G3 represents the third major iteration of the SF50 platform since FAA certification in October 2016. This technical analysis examines specifications, performance metrics, and operational improvements against the G1, G2, and G2+ variants to determine whether the G3 constitutes a meaningful advancement or merely incremental refinement.
 
@@ -23,7 +23,7 @@ The Cirrus Vision Jet G3 represents the third major iteration of the SF50 platfo
 
 ---
 
-##### Figure 1: Generational Performance Comparison
+## Figure 1: Generational Performance Comparison
 
 | Parameter | G1 | G2 | G2+ | G3 | Change (G2+ → G3) |
 |-----------|---:|---:|----:|---:|------------------:|
@@ -39,7 +39,7 @@ The Cirrus Vision Jet G3 represents the third major iteration of the SF50 platfo
 
 ---
 
-##### Highlights
+## Highlights
 
 + **Modest Speed Gain**: Published max cruise speed increases 6 KTAS (311 → 317 KTAS) over the G2/G2+ baseline
 + **CPDLC Integration**: Controller-Pilot Data Link Communications represents the most substantive operational enhancement
@@ -51,7 +51,7 @@ The Cirrus Vision Jet G3 represents the third major iteration of the SF50 platfo
 
 ---
 
-##### Powerplant Configuration: Unchanged Architecture
+## Powerplant Configuration: Unchanged Architecture
 
 **Engine Specifications:**
 - **Model**: Williams International FJ33-5A turbofan
@@ -78,7 +78,7 @@ Fuel capacity and system architecture remain identical to all previous generatio
 
 ---
 
-##### Performance Envelope: Modest Speed Improvement Over G2+
+## Performance Envelope: Modest Speed Improvement Over G2+
 
 **Altitude Capabilities:**
 - **Maximum Operating Altitude**: FL310 (31,000 ft / 9,449 m)
@@ -119,7 +119,7 @@ Hot-and-high performance improvements introduced with the G2+ FADEC optimization
 
 ---
 
-##### Weight and Balance: Minimal Delta
+## Weight and Balance: Minimal Delta
 
 **Weight Specifications:**
 - **Maximum Takeoff Weight**: 6,000 lbs (2,722 kg)
@@ -147,7 +147,7 @@ The G3's marketing claim of "six adults plus one child" represents genuine impro
 
 ---
 
-##### Aerodynamic Configuration: Zero Modification
+## Aerodynamic Configuration: Zero Modification
 
 **Airframe Specifications:**
 - **Wingspan**: 38.7 ft (11.8 m)
@@ -171,7 +171,7 @@ Material specifications and construction techniques carry over unchanged from pr
 
 ---
 
-##### Avionics Suite: Software Evolution, Hardware Stagnation
+## Avionics Suite: Software Evolution, Hardware Stagnation
 
 **Core System Architecture:**
 - **Primary System**: Garmin Perspective Touch+ (G3000-based platform)
@@ -249,7 +249,7 @@ All G3 avionics improvements are software additions to the existing G3000 Perspe
 
 ---
 
-##### Safety Systems: Carryover Technology
+## Safety Systems: Carryover Technology
 
 **Cirrus Airframe Parachute System (CAPS):**
 - **Deployment Altitude Range**: Ground level to FL310 (full operational envelope)
@@ -281,7 +281,7 @@ Standard equipment since G2, unchanged in G3. ESP prevents inadvertent entry int
 
 ---
 
-##### Exterior Modifications: Lighting and Aesthetics
+## Exterior Modifications: Lighting and Aesthetics
 
 **Cirrus Spectra Wingtip Lights:**
 - **Light Output**: 2.7× brighter than previous generation
@@ -309,7 +309,7 @@ No aerodynamic or structural modifications to exterior surfaces. Paint and graph
 
 ---
 
-##### Interior Modifications: Substantive Upgrade
+## Interior Modifications: Substantive Upgrade
 
 **Cabin Dimensions (Unchanged):**
 - **Internal Height**: 4.1 ft (1.25 m)
@@ -363,7 +363,7 @@ Alcantara provides premium aesthetic and tactile experience but long-term durabi
 
 ---
 
-##### Comparative Analysis: Generational Evolution
+## Comparative Analysis: Generational Evolution
 
 **G1 → G2 (Major Upgrade, 2019):**
 - **Service Ceiling**: +3,000 ft (FL280 → FL310) via RVSM certification
@@ -402,7 +402,7 @@ The G3 is primarily a refinement-focused update. All meaningful improvements bey
 
 ---
 
-##### Operational Economics: Unchanged
+## Operational Economics: Unchanged
 
 **Hourly Operating Cost (Approximate):**
 - **Fuel Consumption**: 65-70 GPH depending on flight profile
@@ -431,7 +431,7 @@ All inspection requirements, maintenance intervals, and service bulletin complia
 
 ---
 
-##### Competitive Context: Monopoly Position
+## Competitive Context: Monopoly Position
 
 **Market Reality:**
 With Eclipse Aerospace's bankruptcy and discontinuation of the Eclipse 550 in 2017, the Vision Jet operates in an uncontested single-engine jet category. No direct competitors exist. Primary competition comes from high-performance turboprops:
@@ -487,7 +487,7 @@ For mission profiles requiring maximum cabin volume, range, or operational flexi
 
 ---
 
-##### Technical Verdict: Incremental Refinement
+## Technical Verdict: Incremental Refinement
 
 **Performance Assessment:**
 The G3 delivers a modest 6-knot cruise speed improvement (311 → 317 KTAS) with no change to:
@@ -548,7 +548,7 @@ The 700+ aircraft delivered and sustained order backlog demonstrate market valid
 
 ---
 
-##### Final Assessment: Is the G3 "Good"?
+## Final Assessment: Is the G3 "Good"?
 
 **Objective Answer: It Depends On Evaluation Criteria**
 
@@ -580,7 +580,7 @@ Consider whether single-engine jet operations justify ~$3.7M acquisition cost vs
 
 ---
 
-##### Conclusion
+## Conclusion
 
 The Cirrus Vision Jet G3 continues Cirrus's strategy of iterative improvement rather than revolutionary redesign. With 700+ aircraft delivered and strong order backlog, the market has validated this approach. However, prospective buyers must recognize that the G3 represents refinement of a now 8-year-old fundamental design rather than a next-generation platform.
 
@@ -594,7 +594,7 @@ It is not "great" in the sense of introducing breakthrough capabilities. For the
 
 ---
 
-##### References and Data Sources
+## References and Data Sources
 
 + Cirrus Aircraft: *Vision Jet G3 Specifications and Performance Data*
 + FAA Type Certificate Data Sheet: *SF50 Vision Jet (TCDS A00020DE)*
@@ -606,7 +606,7 @@ It is not "great" in the sense of introducing breakthrough capabilities. For the
 
 ---
 
-##### About This Analysis
+## About This Analysis
 
 This technical evaluation synthesizes publicly available specifications, manufacturer data, and industry analysis to provide objective assessment of the Vision Jet G3's capabilities and value proposition. All performance data represents manufacturer-published specifications; operational experience may vary based on loading, atmospheric conditions, and pilot technique.
 

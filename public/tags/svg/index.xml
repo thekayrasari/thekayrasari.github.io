@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Svg on Kayra Sari</title>
-    <link>https://thekayrasari.github.io/tags/svg/</link>
+    <link>http://localhost:1313/tags/svg/</link>
     <description>Recent content in Svg on Kayra Sari</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thekayrasari.github.io/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/svg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The E6-B Flight Computer: Building a High-Fidelity Aviation Calculator in React</title>
-      <link>https://thekayrasari.github.io/projects/e6b/</link>
+      <link>http://localhost:1313/projects/e6b/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://thekayrasari.github.io/projects/e6b/</guid>
+      <guid>http://localhost:1313/projects/e6b/</guid>
       <description>A comprehensive technical exploration of building a pixel-perfect digital recreation of the classic E6-B aviation flight computer using React 19, Vite 5, and pure SVG graphics. Covers mathematical foundations, interactive mechanics, and responsive design patterns.</description>
     </item>
   </channel>

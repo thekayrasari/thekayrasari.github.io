@@ -16,7 +16,7 @@ editPost:
 ---
 
 
-##### Executive Summary
+## Executive Summary
 
 Modern turbofan engine design balances competing objectives: fuel efficiency, thrust performance, weight, noise, and emissions. This analysis examines the two fundamental architectural parameters that define engine behavior—**Bypass Ratio (BPR)** and **Overall Pressure Ratio (OPR)**—and the physical limits constraining their optimization.
 
@@ -28,7 +28,7 @@ This presentation uses real-world case studies—the Boeing 737/Airbus A320 fami
 
 ---
 
-##### Presentation Structure
+## Presentation Structure
 
 1. **Introduction & Objectives** — Defining key metrics and design goals
 2. **Bypass Ratio Fundamentals** — How air mass flow distribution affects performance
@@ -44,7 +44,7 @@ This presentation uses real-world case studies—the Boeing 737/Airbus A320 fami
 
 ---
 
-##### Figure 1: Bypass Ratio Architecture
+## Figure 1: Bypass Ratio Architecture
 
 **Core Air Flow:**
 - Compressed to high pressure (15-50:1 ratio)
@@ -70,7 +70,7 @@ BPR = (Mass flow rate of bypass air) / (Mass flow rate of core air)
 
 ---
 
-##### High-Bypass Architecture: Commercial Optimization
+## High-Bypass Architecture: Commercial Optimization
 
 **Propulsive Efficiency Advantage:**
 
@@ -116,7 +116,7 @@ The slow-moving bypass air creates a low-velocity sheath around the high-velocit
 
 ---
 
-##### Low-Bypass Architecture: Tactical Applications
+## Low-Bypass Architecture: Tactical Applications
 
 **High-Speed Performance Requirements:**
 
@@ -146,7 +146,7 @@ Military missions prioritize thrust-to-weight ratio:
 
 ---
 
-##### Bypass Ratio Limiting Factors
+## Bypass Ratio Limiting Factors
 
 **Fan Blade Tip Speed Constraint:**
 
@@ -205,7 +205,7 @@ Analysis suggests BPR ~15-18:1 represents the practical limit for podded engines
 
 ---
 
-##### Overall Pressure Ratio (OPR): Thermodynamic Fundamentals
+## Overall Pressure Ratio (OPR): Thermodynamic Fundamentals
 
 **Thermal Efficiency Relationship:**
 
@@ -249,7 +249,7 @@ This occurs **before combustion**—material limits become severe.
 
 ---
 
-##### OPR Limiting Factor 1: Material Constraints
+## OPR Limiting Factor 1: Material Constraints
 
 **Compressor Exit Temperature Challenge:**
 
@@ -294,7 +294,7 @@ Each 10-point OPR increase requires:
 
 ---
 
-##### OPR Limiting Factor 2: Emissions (NOx Formation)
+## OPR Limiting Factor 2: Emissions (NOx Formation)
 
 **High-Temperature Chemistry:**
 
@@ -357,7 +357,7 @@ Each generation requires breakthrough combustor technology to maintain or increa
 
 ---
 
-##### Innovation Case Study: CFM RISE Program
+## Innovation Case Study: CFM RISE Program
 
 **Revolutionary Innovation for Sustainable Engines (RISE):**
 
@@ -423,7 +423,7 @@ Overall Pressure Ratio| 40:1           | 55-60:1        | 50% increase
 
 ---
 
-##### Design Trade-off Matrix
+## Design Trade-off Matrix
 
 | Parameter | Optimization Goal | Benefits | Negative Trade-offs |
 |-----------|------------------|----------|-------------------|
@@ -460,7 +460,7 @@ No single "optimal" design exists—architecture must match mission profile:
 
 ---
 
-##### Recommendations & Next Steps
+## Recommendations & Next Steps
 
 **For Subsonic Commercial Applications (Boeing 737, A320 competitors):**
 
@@ -535,7 +535,7 @@ Technology Readiness: 2028-2032 entry into service
 
 ---
 
-##### Conclusion
+## Conclusion
 
 Modern turbofan design is a multi-dimensional optimization problem constrained by physics, materials, regulations, and economics. While theoretical analysis suggests always increasing BPR and OPR, practical limits force engineering compromises:
 
@@ -556,7 +556,7 @@ For aerospace engineers developing next-generation propulsion systems, success r
 
 ---
 
-##### Technical Appendix
+## Technical Appendix
 
 **Propulsive Efficiency Derivation:**
 
@@ -598,7 +598,7 @@ Formation rate strongly dependent on temperature and residence time in high-temp
 
 ---
 
-##### References and Further Reading
+## References and Further Reading
 
 + **Mattingly, J.D.** *Elements of Gas Turbine Propulsion* (2nd Edition). McGraw-Hill, 2005.
 + **Cumpsty, N.A. & Heyes, A.L.** *Jet Propulsion* (3rd Edition). Cambridge University Press, 2015.
@@ -612,7 +612,7 @@ Formation rate strongly dependent on temperature and residence time in high-temp
 
 ---
 
-##### Glossary
+## Glossary
 
 **BPR (Bypass Ratio):** Mass flow rate of air bypassing the engine core divided by mass flow rate through the core
 
@@ -638,7 +638,7 @@ Formation rate strongly dependent on temperature and residence time in high-temp
 
 ---
 
-##### About This Analysis
+## About This Analysis
 
 This presentation was developed as part of a comprehensive study on next-generation aircraft propulsion systems. The analysis integrates thermodynamic principles, materials science, regulatory constraints, and real-world case studies to provide a practical framework for engine architecture decisions.
 
