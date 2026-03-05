@@ -14,20 +14,20 @@ editPost:
     Text: "GitHub Repository"
 ---
 
-##### Download
+## Download
 
 + [Source Code (GitHub)](https://github.com/thekayrasari/excalibur)
 + [Installation Script](https://github.com/thekayrasari/excalibur/blob/main/install.sh)
 
 ---
 
-##### Abstract
+## Abstract
 
 Hardware feature control for gaming laptops under Linux remains fragmented due to proprietary vendor-specific interfaces. This project presents a kernel module leveraging the ACPI Windows Management Instrumentation subsystem to expose native hardware control capabilities for Excalibur gaming laptops. The driver implements three primary control interfaces: LED subsystem integration for multi-zone RGB keyboard backlighting with per-zone color control and brightness adjustment; hwmon framework integration for real-time CPU and GPU fan speed monitoring; and power profile management supporting four discrete performance states. The module utilizes ACPI WMI method calls to communicate with firmware-level hardware controllers, providing a standardized Linux interface to previously Windows-exclusive functionality. DMI-based device matching ensures automatic loading on supported hardware. The implementation demonstrates successful hardware abstraction across multiple Excalibur laptop models including G650, G750, G670, and G900 series, validated through direct firmware interaction testing.
 
 ---
 
-##### System Architecture
+## System Architecture
 
 The driver architecture consists of three primary subsystems interfacing with ACPI WMI firmware methods:
 
@@ -60,7 +60,7 @@ Four discrete power states are supported through firmware method 0x6:
 
 ---
 
-##### Technical Implementation
+## Technical Implementation
 
 **Module Initialization:**
 ```c
@@ -114,7 +114,7 @@ Example: `0x30FF0000` sets Zone 3 to pure red (R=255, G=0, B=0).
 
 ---
 
-##### Device Compatibility
+## Device Compatibility
 
 The module uses DMI matching to identify compatible hardware:
 
@@ -143,7 +143,7 @@ Additional models can be supported by extending the DMI table with appropriate v
 
 ---
 
-##### Installation and Usage
+## Installation and Usage
 
 **Build Requirements:**
 - Linux kernel headers (5.0+)
@@ -218,7 +218,7 @@ echo 4 | sudo tee /sys/class/hwmon/hwmon*/pwm1
 
 ---
 
-##### Debugging and Development
+## Debugging and Development
 
 **Debug Mode:**
 ```bash
@@ -257,7 +257,7 @@ Build failures:
 
 ---
 
-##### Performance Characteristics
+## Performance Characteristics
 
 **Latency Measurements:**
 - WMI method call overhead: ~2-5ms per transaction
@@ -273,7 +273,7 @@ Build failures:
 
 ---
 
-##### Future Development
+## Future Development
 
 **Planned Enhancements:**
 - Automatic fan curve implementation based on thermal sensor feedback
@@ -290,7 +290,7 @@ Build failures:
 
 ---
 
-##### Technical Specifications
+## Technical Specifications
 
 **Supported WMI Methods:**
 ```
@@ -317,7 +317,7 @@ Method ID 0x9: GPU fan speed query
 
 ---
 
-##### License
+## License
 
 This project is licensed under the MIT License.
 
@@ -333,7 +333,7 @@ Software, subject to the above conditions.
 
 ---
 
-##### Citation
+## Citation
 
 Sarı, Kayra. 2025. "Excalibur WMI Kernel Module: Linux Driver for Hardware Control." GitHub repository.
 
@@ -350,7 +350,7 @@ Sarı, Kayra. 2025. "Excalibur WMI Kernel Module: Linux Driver for Hardware Cont
 
 ---
 
-##### Contact
+## Contact
 
 **Author:** Kayra Sarı  
 **Email:** thekayrasari@gmail.com  
@@ -360,6 +360,6 @@ Sarı, Kayra. 2025. "Excalibur WMI Kernel Module: Linux Driver for Hardware Cont
 
 ---
 
-##### Acknowledgments
+## Acknowledgments
 
 This project builds upon the Linux kernel WMI subsystem and leverages standard kernel driver frameworks. Appreciation to the Linux kernel development community for comprehensive driver API documentation and the ACPI WMI specification maintainers for firmware interface standards.
