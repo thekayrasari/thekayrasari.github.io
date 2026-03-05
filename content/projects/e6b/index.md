@@ -1305,7 +1305,7 @@ At 60 knots: `(1.778 - 1) × 360 = 280°`
 
 ---
 
-##### Contact
+## Contact
 
 **Author:** Kayra Sarı  
 **Email:** thekayrasari@gmail.com  

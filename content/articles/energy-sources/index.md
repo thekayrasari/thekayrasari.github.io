@@ -16,7 +16,7 @@ editPost:
 ---
 
 
-##### Executive Summary
+## Executive Summary
 
 The aviation industry faces mounting pressure to reduce greenhouse gas emissions while maintaining safety, performance, and economic viability. This technical analysis evaluates potential energy sources for next-generation aircraft propulsion systems by comparing their gravimetric and volumetric energy densities, storage requirements, infrastructure compatibility, and airframe design implications.
 
@@ -26,7 +26,7 @@ Based on a target mission energy requirement of 867,529 MJ (equivalent to a typi
 
 ---
 
-##### Figure 1: Energy Density Comparison
+## Figure 1: Energy Density Comparison
 
 | Energy Source | Gravimetric (MJ/kg) | Volumetric (MJ/L) | Mass Required (kg) | Volume Required (L) |
 |---------------|--------------------:|------------------:|-------------------:|--------------------:|
@@ -42,7 +42,7 @@ Based on a target mission energy requirement of 867,529 MJ (equivalent to a typi
 
 ---
 
-##### Highlights
+## Highlights
 
 + **Comprehensive Evaluation**: Analysis of 7 distinct energy sources plus hybrid configurations across multiple performance metrics
 + **Drop-in SAF Recommendation**: FT-SPK and HRJ offer ~44 MJ/kg energy density with minimal infrastructure changes
@@ -53,7 +53,7 @@ Based on a target mission energy requirement of 867,529 MJ (equivalent to a typi
 
 ---
 
-##### Methodology
+## Methodology
 
 **Energy Requirement Baseline:**
 The analysis uses a reference mission energy of 867,529 MJ, representative of a long-range commercial aircraft mission (approximately 8,000 nautical miles with typical payload). This baseline enables direct comparison of mass and volume requirements across all fuel types.
@@ -75,7 +75,7 @@ This represents a 4× volume increase over Jet-A despite 65% mass reduction, nec
 
 ---
 
-##### Detailed Analysis by Energy Source
+## Detailed Analysis by Energy Source
 
 **Conventional Jet Fuel (Jet-A):**
 - Gravimetric: 42.8 MJ/kg | Volumetric: 34.7 MJ/L
@@ -124,7 +124,7 @@ This represents a 4× volume increase over Jet-A despite 65% mass reduction, nec
 
 ---
 
-##### Recommendation Rationale
+## Recommendation Rationale
 
 After comprehensive evaluation, **drop-in Sustainable Aviation Fuel (SAF)** emerges as the optimal choice for next-generation propulsion systems entering service within 2026-2035:
 
@@ -148,7 +148,7 @@ While SAF currently costs 2-4× conventional jet fuel, production scaling and po
 
 ---
 
-##### Why Not Hydrogen?
+## Why Not Hydrogen?
 
 Liquid hydrogen presents an attractive long-term vision for zero-carbon aviation but faces formidable near-term obstacles:
 
@@ -181,7 +181,7 @@ Hydrogen aircraft represent a clean-sheet design requiring:
 
 ---
 
-##### Why Not Batteries?
+## Why Not Batteries?
 
 Battery-electric propulsion suffers from fundamental physics limitations:
 
@@ -208,7 +208,7 @@ Recharging 964 metric tons of batteries requires megawatt-scale charging infrast
 
 ---
 
-##### Implementation Roadmap
+## Implementation Roadmap
 
 **Phase 1: Immediate Deployment (2026-2027)**
 - Increase SAF blend ratios from current 50% to 100% as certification completes
@@ -232,7 +232,7 @@ Recharging 964 metric tons of batteries requires megawatt-scale charging infrast
 
 ---
 
-##### Key Assumptions and Limitations
+## Key Assumptions and Limitations
 
 **Energy Requirement:**
 The 867,529 MJ baseline represents a typical long-range mission but does not account for reserves, taxi fuel, or operational contingencies. Actual fuel loads include 5-10% additional capacity per regulatory requirements.
@@ -254,7 +254,7 @@ SAF emissions reduction percentages are lifecycle (well-to-wake) values, not com
 
 ---
 
-##### Conclusion
+## Conclusion
 
 The path to sustainable aviation is a phased transition, not a single technological leap. Drop-in Sustainable Aviation Fuel represents the optimal bridge technology, delivering immediate emissions reductions while preserving operational continuity and economic viability.
 
@@ -264,7 +264,7 @@ For aerospace engineers developing next-generation propulsion systems today, **S
 
 ---
 
-##### References and Further Reading
+## References and Further Reading
 
 + ASTM D7566: *Standard Specification for Aviation Turbine Fuel Containing Synthesized Hydrocarbons*
 + ICAO CORSIA: *Carbon Offsetting and Reduction Scheme for International Aviation*
@@ -275,7 +275,7 @@ For aerospace engineers developing next-generation propulsion systems today, **S
 
 ---
 
-##### About This Analysis
+## About This Analysis
 
 This comparative study was conducted as part of an independent research project exploring sustainable aviation technologies. The analysis synthesizes publicly available data on aviation fuels, propulsion systems, and aircraft design constraints to evaluate practical pathways toward decarbonizing commercial aviation.
 
