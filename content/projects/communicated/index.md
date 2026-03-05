@@ -164,4 +164,4 @@ We sincerely thank **CERN** for making our dream possible by providing access to
 
 We are a team of senior high school students from Turkey united by our passion for physics and innovation. Motivated by curiosity and a commitment to addressing real-world challenges, we aim to leverage fundamental physics principles—particularly in particle physics—to develop novel solutions across diverse fields. This project represents our collective effort to push the boundaries of wireless communication technology.
 
-**Team Members:** Kayra Sarı, Arhan Hasan Ünsal, Doruk Turan, Doruk Utku Tarım, Eren Demirel, Tuna Şahin, Uygar Yıldızcı, Yağmur Sude Mersin, Kaan Emre Karabacak
+**Team Members:** Kayra Sari, Arhan Hasan Ünsal, Doruk Turan, Doruk Utku Tarim, Eren Demirel, Tuna Şahin, Uygar Yıldızcı, Yağmur Sude Mersin, Kaan Emre Karabacak
