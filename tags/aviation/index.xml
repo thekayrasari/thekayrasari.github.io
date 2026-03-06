@@ -6,15 +6,8 @@
     <description>Recent content in Aviation on Kayra Sari</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thekayrasari.github.io/tags/aviation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The E6-B Flight Computer: Building a High-Fidelity Aviation Calculator in React</title>
-      <link>https://thekayrasari.github.io/projects/e6b/</link>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://thekayrasari.github.io/projects/e6b/</guid>
-      <description>A comprehensive technical exploration of building a pixel-perfect digital recreation of the classic E6-B aviation flight computer using React 19, Vite 5, and pure SVG graphics. Covers mathematical foundations, interactive mechanics, and responsive design patterns.</description>
-    </item>
     <item>
       <title>Cirrus Vision Jet G3: Technical Analysis and Comparative Assessment</title>
       <link>https://thekayrasari.github.io/articles/g3-comparison/</link>
