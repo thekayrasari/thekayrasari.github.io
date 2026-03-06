@@ -1,222 +1,116 @@
-<div align="center">
+# thekayrasari.github.io
 
-# 🚀 Kayra Sari
+Personal website built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, deployed to GitHub Pages via GitHub Actions.
 
-### Personal Website & Engineering Portfolio
-
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fthekayrasari.github.io&style=for-the-badge&logo=google-chrome&logoColor=white)](https://thekayrasari.github.io)
-[![Hugo](https://img.shields.io/badge/Hugo-0.139.3-FF4088?style=for-the-badge&logo=hugo&logoColor=white)](https://gohugo.io/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-deployed-success?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-
-**[🌐 Visit Website](https://thekayrasari.github.io)** • **[📝 Articles](https://thekayrasari.github.io/articles)** • **[🛠️ Projects](https://thekayrasari.github.io/projects)**
+🔗 **Live site:** [thekayrasari.github.io](https://thekayrasari.github.io)
 
 ---
 
-</div>
+## Tech Stack
 
-## 👨‍🚀 About Me
+| Layer | Technology |
+|---|---|
+| Static site generator | [Hugo](https://gohugo.io/) |
+| Theme | [PaperMod](https://github.com/adityatelange/hugo-PaperMod) |
+| Styling | CSS (custom overrides in `assets/css/`) |
+| Hosting | GitHub Pages |
+| CI/CD | GitHub Actions (`.github/workflows/`) |
 
-I'm a high school student with a passion for **Aerospace Engineering**, focused on mastering fundamentals through hands-on projects in:
+---
+
+## Project Structure
 
 ```
-🔧 CAD Design     🚀 Rocketry     🤖 Robotics     ✈️ Aerodynamics
+thekayrasari.github.io/
+├── .github/
+│   └── workflows/          # GitHub Actions deployment pipeline
+├── assets/
+│   └── css/                # Custom CSS overrides on top of PaperMod
+├── content/                # Markdown content (pages, posts, projects)
+├── layouts/                # Custom Hugo layout overrides
+├── static/                 # Static files served as-is (images, favicon, etc.)
+├── themes/
+│   └── PaperMod/           # Hugo PaperMod theme (git submodule)
+├── config.yml              # Hugo site configuration
+└── .gitignore
 ```
 
-This website serves as my digital workshop—showcasing technical articles, engineering projects, and my journey toward the stars.
+---
+
+## Prerequisites
+
+- [Hugo](https://gohugo.io/installation/) — extended version recommended
+- [Git](https://git-scm.com/)
 
 ---
 
-## ✨ Features
+## Local Development
 
-<table>
-  <tr>
-    <td align="center">🎨</td>
-    <td><b>Clean Design</b><br/>Minimalist portfolio with PaperMod theme</td>
-  </tr>
-  <tr>
-    <td align="center">📱</td>
-    <td><b>Mobile Responsive</b><br/>Perfect on all devices</td>
-  </tr>
-  <tr>
-    <td align="center">⚡</td>
-    <td><b>Lightning Fast</b><br/>Static site generation with Hugo</td>
-  </tr>
-  <tr>
-    <td align="center">🌓</td>
-    <td><b>Dark/Light Mode</b><br/>Automatic theme switching</td>
-  </tr>
-  <tr>
-    <td align="center">🔄</td>
-    <td><b>Auto Deploy</b><br/>Push to main → live in seconds</td>
-  </tr>
-</table>
+### 1. Clone the repository
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-| Component | Technology |
-|-----------|-----------|
-| **Static Site Generator** | Hugo Extended v0.139.3+ |
-| **Theme** | PaperMod |
-| **Hosting** | GitHub Pages |
-| **CI/CD** | GitHub Actions |
-| **Content** | Markdown |
-
----
-
-## 💻 Local Development
-
-### Prerequisites
-
-Before you begin, ensure you have:
-
-- ✅ **Hugo Extended** (v0.139.3 or later) - [Download here](https://github.com/gohugoio/hugo/releases)
-- ✅ **Git** - For version control
-
-### 🚀 Quick Start
-
-**1️⃣ Clone the repository:**
 ```bash
-git clone https://github.com/thekayrasari/thekayrasari.github.io.git
+git clone --recurse-submodules https://github.com/thekayrasari/thekayrasari.github.io.git
 cd thekayrasari.github.io
 ```
 
-**2️⃣ Start the dev server:**
+> The `--recurse-submodules` flag is required to pull in the PaperMod theme.
+
+If you already cloned without it, initialize the submodule manually:
+
+```bash
+git submodule update --init --recursive
+```
+
+### 2. Start the development server
+
 ```bash
 hugo server -D
 ```
 
-**3️⃣ Open your browser:**
-```
-🌐 http://localhost:1313
-```
+The site will be available at `http://localhost:1313`. Hugo watches for file changes and hot-reloads automatically. The `-D` flag includes draft content.
 
----
+### 3. Build for production
 
-## 📝 Adding Content
-
-### Create New Article
 ```bash
-hugo new articles/your-article-name.md
+hugo --minify
 ```
 
-### Create New Project
-```bash
-hugo new projects/your-project-name.md
-```
-
-**Then:**
-1. ✏️ Edit the markdown file in `content/`
-2. 💾 Save your changes
-3. 📤 Commit and push to `main`
-4. ✨ Site auto-deploys in ~1 minute!
+Output is generated in the `public/` directory.
 
 ---
 
-## 🚀 Deployment
+## Adding Content
 
-<div align="center">
+New pages and posts live in the `content/` directory as Markdown files with YAML front matter. Example:
 
-```mermaid
-graph LR
-    A[💻 Edit Code] --> B[📤 Push to main]
-    B --> C[⚙️ GitHub Actions]
-    C --> D[🏗️ Build Site]
-    D --> E[🌐 Deploy to Pages]
-    E --> F[✅ Live in ~60s]
-```
-
-</div>
-
-**Fully automated!** Just push to `main` branch and GitHub Actions handles the rest.
-
-No manual deployment needed. Ever. 🎉
-
+```markdown
+---
+title: "My New Post"
+date: 2026-03-06
+draft: false
 ---
 
-## 📁 Project Structure
-
-```
-thekayrasari.github.io/
-│
-├── 📂 .github/
-│   └── workflows/
-│       └── hugo.yaml              # 🤖 Auto-deployment config
-│
-├── 📂 content/
-│   ├── articles/                  # 📝 Blog posts & technical articles
-│   │   ├── _index.md
-│   │   └── your-article.md
-│   └── projects/                  # 🛠️ Project showcases
-│       ├── _index.md
-│       └── your-project.md
-│
-├── 📂 static/                     # 🖼️ Images, PDFs, static files
-│   └── profile.jpg
-│
-├── 📂 themes/
-│   └── PaperMod/                  # 🎨 Theme files
-│
-├── 📄 hugo.yaml                   # ⚙️ Site configuration
-├── 📄 .gitignore
-└── 📄 README.md                   # 👋 You are here!
+Content goes here.
 ```
 
 ---
 
-## 🤝 Connect With Me
+## Deployment
 
-<div align="center">
+Deployment is automated via GitHub Actions. Any push to the `main` branch triggers the workflow in `.github/workflows/`, which builds the Hugo site and pushes the output to GitHub Pages.
 
-[![GitHub](https://img.shields.io/badge/GitHub-thekayrasari-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thekayrasari)
-[![Twitter](https://img.shields.io/badge/Twitter-thekayrasari-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/thekayrasari)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-thekayrasari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thekayrasari/)
-[![Email](https://img.shields.io/badge/Email-thekayrasari@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thekayrasari@gmail.com)
-
-</div>
+No manual deployment step is required.
 
 ---
 
-## 📊 Repository Stats
+## Customization
 
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/thekayrasari/thekayrasari.github.io?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/thekayrasari/thekayrasari.github.io?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/thekayrasari/thekayrasari.github.io?style=for-the-badge)
-
-</div>
+- **Site config** — edit `config.yml` to update metadata, navigation, social links, and PaperMod theme options.
+- **Custom styles** — add or edit CSS files in `assets/css/`. Hugo bundles these on top of the theme's default styles.
+- **Layout overrides** — place custom HTML templates in `layouts/` to override any PaperMod template without modifying the theme submodule directly.
 
 ---
 
-## 📜 License
+## License
 
-This project is open source and available under the **MIT License**.
-
-Feel free to fork, modify, and use for your own portfolio!
-
----
-
-<div align="center">
-
-### 🌟 If you find this useful, give it a star!
-
-**Built with ❤️ by [Kayra Sari](https://thekayrasari.github.io)**
-
-*Powered by Hugo & GitHub Pages*
-
-[![Made with Hugo](https://img.shields.io/badge/Made%20with-Hugo-FF4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![Hosted on GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-181717?style=flat-square&logo=github)](https://pages.github.com/)
-
-</div>
+MIT — see [LICENSE.md](LICENSE.md).
