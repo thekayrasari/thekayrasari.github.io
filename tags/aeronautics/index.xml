@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Aviation on Kayra Sari</title>
-    <link>https://thekayrasari.github.io/tags/aviation/</link>
-    <description>Recent content in Aviation on Kayra Sari</description>
+    <title>Aeronautics on Kayra Sari</title>
+    <link>https://thekayrasari.github.io/tags/aeronautics/</link>
+    <description>Recent content in Aeronautics on Kayra Sari</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thekayrasari.github.io/tags/aviation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thekayrasari.github.io/tags/aeronautics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>E6B Flight Computer</title>
       <link>https://thekayrasari.github.io/projects/e6b/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://thekayrasari.github.io/projects/e6b/</guid>
       <description>A browser-based digital flight computer modeled after the classic E6B circular slide rule. Covers wind correction, time/speed/distance, fuel planning, true airspeed, density altitude, crosswind components, and top of descent — all computed client-side with a live vector diagram.</description>
-    </item>
-    <item>
-      <title>Cirrus Vision Jet G3: Technical Analysis and Comparative Assessment</title>
-      <link>https://thekayrasari.github.io/articles/g3-comparison/</link>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://thekayrasari.github.io/articles/g3-comparison/</guid>
-      <description>A comprehensive technical evaluation of the Cirrus Vision Jet G3, analyzing performance specifications, avionics upgrades, and operational improvements compared to G1, G2, and G2&#43; variants.</description>
     </item>
   </channel>
 </rss>

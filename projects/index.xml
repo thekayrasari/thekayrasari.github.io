@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thekayrasari.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>E6B Flight Computer</title>
+      <link>https://thekayrasari.github.io/projects/e6b/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://thekayrasari.github.io/projects/e6b/</guid>
+      <description>A browser-based digital flight computer modeled after the classic E6B circular slide rule. Covers wind correction, time/speed/distance, fuel planning, true airspeed, density altitude, crosswind components, and top of descent — all computed client-side with a live vector diagram.</description>
+    </item>
+    <item>
       <title>NACA 0012 CFD Simulator</title>
       <link>https://thekayrasari.github.io/projects/naca0012-cfd/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
