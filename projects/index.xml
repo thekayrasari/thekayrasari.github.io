@@ -23,18 +23,18 @@
       <description>A browser-based aerodynamic simulator for the NACA 0012 symmetric airfoil, computing lift, drag, and stall behavior across a full angle-of-attack sweep in real time. No dependencies, no build step — just HTML, CSS, and JavaScript.</description>
     </item>
     <item>
-      <title>Excalibur WMI Kernel Module: Linux Driver for Hardware Control</title>
-      <link>https://thekayrasari.github.io/projects/wmi-driver/</link>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://thekayrasari.github.io/projects/wmi-driver/</guid>
-      <description>A Linux kernel module providing comprehensive hardware control for Excalibur gaming laptops through WMI interface, enabling RGB lighting control, fan speed monitoring, and power profile management.</description>
-    </item>
-    <item>
       <title>Communication On A Vertical Axis Using Cosmic Ray Muons</title>
       <link>https://thekayrasari.github.io/projects/communicated/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://thekayrasari.github.io/projects/communicated/</guid>
       <description>This paper proposes a novel telecommunication system that uses cosmic ray muons for wireless data transmission through solid obstructions. Presented at CERN Beamline for Schools Competition, 2025.</description>
+    </item>
+    <item>
+      <title>Excalibur WMI Kernel Module: Writing a Real Linux Driver From Scratch</title>
+      <link>https://thekayrasari.github.io/projects/wmi-driver/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://thekayrasari.github.io/projects/wmi-driver/</guid>
+      <description>How I reverse-engineered my laptop&amp;#39;s WMI firmware protocol, discovered an undocumented rainbow mode at 0x7, and rewrote the driver architecture from global variables to a proper per-zone state machine.</description>
     </item>
   </channel>
 </rss>

@@ -6,14 +6,14 @@
     <description>Recent content in Acpi on Kayra Sari</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thekayrasari.github.io/tags/acpi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Excalibur WMI Kernel Module: Linux Driver for Hardware Control</title>
+      <title>Excalibur WMI Kernel Module: Writing a Real Linux Driver From Scratch</title>
       <link>https://thekayrasari.github.io/projects/wmi-driver/</link>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://thekayrasari.github.io/projects/wmi-driver/</guid>
-      <description>A Linux kernel module providing comprehensive hardware control for Excalibur gaming laptops through WMI interface, enabling RGB lighting control, fan speed monitoring, and power profile management.</description>
+      <description>How I reverse-engineered my laptop&amp;#39;s WMI firmware protocol, discovered an undocumented rainbow mode at 0x7, and rewrote the driver architecture from global variables to a proper per-zone state machine.</description>
     </item>
   </channel>
 </rss>
