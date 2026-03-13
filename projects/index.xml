@@ -9,11 +9,18 @@
     <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thekayrasari.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RadiaTED: Compton Scattering &amp; Timing Resolution at CERN BL4S 2026</title>
+      <title>RadiaTED: Compton Scattering &amp; Timing Resolution</title>
       <link>https://thekayrasari.github.io/projects/radiated/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://thekayrasari.github.io/projects/radiated/</guid>
       <description>A student-led experiment at CERN&amp;#39;s T9 beamline to separate geometric and detector-induced contributions to timing resolution in Compton-based TOF systems, with direct implications for next-generation TOF-PET scanners.</description>
+    </item>
+    <item>
+      <title>The Dualists: Dual-Readout Calorimetry</title>
+      <link>https://thekayrasari.github.io/projects/dualists/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://thekayrasari.github.io/projects/dualists/</guid>
+      <description>A student-led experiment at CERN&amp;#39;s T9 beamline to demonstrate dual-readout calorimetry — simultaneously measuring scintillation and Cherenkov light to correct hadronic energy measurements on an event-by-event basis, directly connected to FCC-ee detector R&amp;amp;D.</description>
     </item>
     <item>
       <title>E6B Flight Computer</title>
@@ -30,17 +37,17 @@
       <description>A browser-based aerodynamic simulator for the NACA 0012 symmetric airfoil, computing lift, drag, and stall behavior across a full angle-of-attack sweep in real time. No dependencies, no build step — just HTML, CSS, and JavaScript.</description>
     </item>
     <item>
-      <title>Communication On A Vertical Axis Using Cosmic Ray Muons</title>
+      <title>CommunicaTED:   Communication On A Vertical Axis Using Cosmic Ray Muons</title>
       <link>https://thekayrasari.github.io/projects/communicated/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://thekayrasari.github.io/projects/communicated/</guid>
       <description>This paper proposes a novel telecommunication system that uses cosmic ray muons for wireless data transmission through solid obstructions. Presented at CERN Beamline for Schools Competition, 2025.</description>
     </item>
     <item>
-      <title>Excalibur WMI Kernel Module: Writing a Real Linux Driver From Scratch</title>
-      <link>https://thekayrasari.github.io/projects/wmi-driver/</link>
+      <title>Excalibur WMI Kernel Module</title>
+      <link>https://thekayrasari.github.io/projects/excalibur/</link>
       <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://thekayrasari.github.io/projects/wmi-driver/</guid>
+      <guid>https://thekayrasari.github.io/projects/excalibur/</guid>
       <description>How I reverse-engineered my laptop&amp;#39;s WMI firmware protocol, discovered an undocumented rainbow mode at 0x7, and rewrote the driver architecture from global variables to a proper per-zone state machine.</description>
     </item>
   </channel>

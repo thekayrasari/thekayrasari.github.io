@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://thekayrasari.github.io/tags/calorimetry/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://thekayrasari.github.io/tags/cern/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/detector-rd/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/fcc-ee/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/geant4/</loc>
@@ -30,6 +39,9 @@
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/projects/dualists/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/aerospace-engineering/</loc>
@@ -188,7 +200,7 @@
     <loc>https://thekayrasari.github.io/tags/device-driver/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://thekayrasari.github.io/projects/wmi-driver/</loc>
+    <loc>https://thekayrasari.github.io/projects/excalibur/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/hardware-control/</loc>

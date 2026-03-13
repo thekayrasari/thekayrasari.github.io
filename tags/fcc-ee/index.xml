@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FCC-Ee on Kayra Sari</title>
+    <link>https://thekayrasari.github.io/tags/fcc-ee/</link>
+    <description>Recent content in FCC-Ee on Kayra Sari</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thekayrasari.github.io/tags/fcc-ee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Dualists: Dual-Readout Calorimetry</title>
+      <link>https://thekayrasari.github.io/projects/dualists/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://thekayrasari.github.io/projects/dualists/</guid>
+      <description>A student-led experiment at CERN&amp;#39;s T9 beamline to demonstrate dual-readout calorimetry — simultaneously measuring scintillation and Cherenkov light to correct hadronic energy measurements on an event-by-event basis, directly connected to FCC-ee detector R&amp;amp;D.</description>
+    </item>
+  </channel>
+</rss>
