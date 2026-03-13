@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Kayra Sari</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thekayrasari.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RadiaTED: Compton Scattering &amp; Timing Resolution at CERN BL4S 2026</title>
+      <link>https://thekayrasari.github.io/projects/radiated/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://thekayrasari.github.io/projects/radiated/</guid>
+      <description>A student-led experiment at CERN&amp;#39;s T9 beamline to separate geometric and detector-induced contributions to timing resolution in Compton-based TOF systems, with direct implications for next-generation TOF-PET scanners.</description>
+    </item>
     <item>
       <title>E6B Flight Computer</title>
       <link>https://thekayrasari.github.io/projects/e6b/</link>

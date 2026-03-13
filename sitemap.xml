@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://thekayrasari.github.io/tags/cern/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/geant4/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/particle-physics/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/pet-imaging/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/physics/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/projects/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/projects/radiated/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/radiotherapy/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thekayrasari.github.io/tags/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://thekayrasari.github.io/tags/aerospace-engineering/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,13 +56,7 @@
     <loc>https://thekayrasari.github.io/tags/faa-regulations/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://thekayrasari.github.io/</loc>
-    <lastmod>2026-03-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://thekayrasari.github.io/tags/oceanic-flight/</loc>
-    <lastmod>2026-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thekayrasari.github.io/tags/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/twin-engine-aircraft/</loc>
@@ -60,9 +84,6 @@
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/navigation/</loc>
-    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thekayrasari.github.io/projects/</loc>
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/react/</loc>
@@ -156,9 +177,6 @@
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/muon-detection/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thekayrasari.github.io/tags/particle-physics/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thekayrasari.github.io/tags/wireless-communication/</loc>

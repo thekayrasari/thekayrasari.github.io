@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Particle Physics on Kayra Sari</title>
-    <link>https://thekayrasari.github.io/tags/particle-physics/</link>
-    <description>Recent content in Particle Physics on Kayra Sari</description>
+    <title>CERN on Kayra Sari</title>
+    <link>https://thekayrasari.github.io/tags/cern/</link>
+    <description>Recent content in CERN on Kayra Sari</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thekayrasari.github.io/tags/particle-physics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thekayrasari.github.io/tags/cern/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RadiaTED: Compton Scattering &amp; Timing Resolution at CERN BL4S 2026</title>
       <link>https://thekayrasari.github.io/projects/radiated/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://thekayrasari.github.io/projects/radiated/</guid>
       <description>A student-led experiment at CERN&amp;#39;s T9 beamline to separate geometric and detector-induced contributions to timing resolution in Compton-based TOF systems, with direct implications for next-generation TOF-PET scanners.</description>
-    </item>
-    <item>
-      <title>Communication On A Vertical Axis Using Cosmic Ray Muons</title>
-      <link>https://thekayrasari.github.io/projects/communicated/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://thekayrasari.github.io/projects/communicated/</guid>
-      <description>This paper proposes a novel telecommunication system that uses cosmic ray muons for wireless data transmission through solid obstructions. Presented at CERN Beamline for Schools Competition, 2025.</description>
     </item>
   </channel>
 </rss>
