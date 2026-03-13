@@ -1,5 +1,5 @@
 ---
-title: "RadiaTED: Compton Scattering & Timing Resolution at CERN BL4S 2026"
+title: "RadiaTED: Compton Scattering & Timing Resolution"
 date: 2026-03-13
 authors:
   - Kayra Sari

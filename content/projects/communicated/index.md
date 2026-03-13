@@ -1,5 +1,5 @@
 ---
-title: "Communication On A Vertical Axis Using Cosmic Ray Muons"
+title: "CommunicaTED:   Communication On A Vertical Axis Using Cosmic Ray Muons"
 date: 2025-03-19
 tags: ["particle physics", "muon detection", "wireless communication", "cosmic rays", "Helmholtz coils"]
 author: ["Kayra Sari", "Arhan Hasan Ünsal", "Doruk Turan", "Doruk Utku Tarım", "Eren Demirel", "Tuna Şahin", "Uygar Yıldızcı", "Yağmur Sude Mersin", "Kaan Emre Karabacak"]

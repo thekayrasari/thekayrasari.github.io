@@ -1,5 +1,5 @@
 ---
-title: "Excalibur WMI Kernel Module: Writing a Real Linux Driver From Scratch"
+title: "Excalibur WMI Kernel Module"
 date: 2025-03-07
 description: "How I reverse-engineered my laptop's WMI firmware protocol, discovered an undocumented rainbow mode at 0x7, and rewrote the driver architecture from global variables to a proper per-zone state machine."
 tags:
