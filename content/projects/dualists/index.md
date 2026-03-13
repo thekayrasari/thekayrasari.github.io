@@ -16,9 +16,7 @@ description: "A student-led experiment at CERN's T9 beamline to demonstrate dual
 tags: ["physics", "CERN", "particle physics", "calorimetry", "detector R&D", "FCC-ee"]
 ---
 
-## Overview
-
-**The Dualists** is our team's second submission to the [Beam Line for Schools 2026](https://beamlineforschools.cern.ch/) (BL4S) competition at CERN. The experiment tests the **dual-readout calorimetry** principle — a technique at the frontier of particle detector design — using standard equipment already available at CERN's T9 beamline. No custom hardware required.
+The experiment tests the **dual-readout calorimetry** principle — a technique at the frontier of particle detector design — using standard equipment already available at CERN's T9 beamline. No custom hardware required.
 
 The experiment is a collaboration of ten students from **TED Ege College, Aydın, Turkey**, the same team behind the [RadiaTED Compton scattering proposal](/projects/radiated-bl4s).
 

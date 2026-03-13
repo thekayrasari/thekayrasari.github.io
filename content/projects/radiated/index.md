@@ -16,9 +16,8 @@ description: "A student-led experiment at CERN's T9 beamline to separate geometr
 tags: ["physics", "CERN", "particle physics", "PET imaging", "Geant4", "radiotherapy"]
 ---
 
-## Overview
 
-**RadiaTED** is our team's submission to the [Beam Line for Schools 2026](https://beamlineforschools.cern.ch/) (BL4S) competition at CERN. The experiment investigates how the geometry of Compton scattering contributes to the timing resolution of time-of-flight (TOF) detection systems — a question with direct consequences for the precision of PET scanners used in cancer imaging.
+The experiment investigates how the geometry of Compton scattering contributes to the timing resolution of time-of-flight (TOF) detection systems — a question with direct consequences for the precision of PET scanners used in cancer imaging.
 
 The project is a collaboration of ten students from **TED Ege College, Aydın, Turkey**.
 
