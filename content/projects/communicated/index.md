@@ -4,7 +4,7 @@ date: 2025-03-19
 tags: ["particle physics", "muon detection", "wireless communication", "cosmic rays", "Helmholtz coils"]
 author: ["Kayra Sari", "Arhan Hasan Ünsal", "Doruk Turan", "Doruk Utku Tarım", "Eren Demirel", "Tuna Şahin", "Uygar Yıldızcı", "Yağmur Sude Mersin", "Kaan Emre Karabacak"]
 description: "This paper proposes a novel telecommunication system that uses cosmic ray muons for wireless data transmission through solid obstructions. Presented at CERN Beamline for Schools Competition, 2025."
-summary: "We demonstrate a proof-of-concept muon-based wireless communication system that modulates natural atmospheric muon flux using magnetic fields to encode binary information, enabling transmission through solid rock and water."
+summary: "This experiment demonstrates a proof-of-concept muon-based wireless communication system that modulates natural atmospheric muon flux using magnetic fields to encode binary information, enabling transmission through solid rock and water."
 cover:
     alt: "Muon Communication Experimental Setup"
     relative: true

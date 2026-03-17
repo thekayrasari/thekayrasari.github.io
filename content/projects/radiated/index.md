@@ -13,6 +13,7 @@ authors:
   - Leman Ece Genclesen
   - Neva Yıldızlı
 description: "A student-led experiment at CERN's T9 beamline to separate geometric and detector-induced contributions to timing resolution in Compton-based TOF systems, with direct implications for next-generation TOF-PET scanners."
+summary: "The experiment investigates how the geometry of Compton scattering contributes to the timing resolution of time-of-flight (TOF) detection systems — a question with direct consequences for the precision of PET scanners used in cancer imaging."
 tags: ["physics", "CERN", "particle physics", "PET imaging", "Geant4", "radiotherapy"]
 ---
 

@@ -13,6 +13,7 @@ authors:
   - Leman Ece Genclesen
   - Neva Yıldızlı
 description: "A student-led experiment at CERN's T9 beamline to demonstrate dual-readout calorimetry — simultaneously measuring scintillation and Cherenkov light to correct hadronic energy measurements on an event-by-event basis, directly connected to FCC-ee detector R&D."
+description: "The experiment tests the **dual-readout calorimetry** principle — a technique at the frontier of particle detector design — using standard equipment already available at CERN's T9 beamline. No custom hardware required."
 tags: ["physics", "CERN", "particle physics", "calorimetry", "detector R&D", "FCC-ee"]
 ---
 
