@@ -2,18 +2,37 @@ name: Deploy Hugo site
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: peaceiris/actions-hugo@v3
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive  # needed for PaperMod as a submodule
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-      - run: hugo --minify
-      - uses: peaceiris/actions-gh-pages@v3
+          extended: true          # PaperMod requires extended
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          publish_dir: ./public
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
