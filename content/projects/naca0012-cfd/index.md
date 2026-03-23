@@ -50,7 +50,7 @@ The C_L vs α polar updates live as the sweep runs, and readouts for C_L, C_D, a
 
 | Parameter | Value |
 |---|---|
-| Method | Viscous Empirical v2 |
+| Method | Viscous empirical, calibrated to wind tunnel data |
 | Flow regime | Incompressible |
 | α range | −20° to +25° |
 | Re range | 0.5M – 6.0M |
@@ -93,8 +93,6 @@ Stall angle increases with Reynolds number as the boundary layer remains attache
 ## Implementation
 
 The entire project is a single `index.html` file. The airfoil geometry renderer, simulation core, and polar chart are all written from scratch using the Canvas 2D API and vanilla JavaScript — no npm, no bundler, no runtime dependencies.
-
-This was an intentional constraint. Keeping the project dependency-free makes it easy to read, fork, and run anywhere. Opening the file in a browser is sufficient to run the simulation.
 
 ```
 naca0012-cfd/
