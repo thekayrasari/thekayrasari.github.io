@@ -1,10 +1,10 @@
 ---
 title: "E6B Flight Computer"
 date: 2026-03-06
-tags: ["aviation", "flight planning", "React", "navigation", "aeronautics"]
+tags: ["aviation", "flight planning", "navigation", "aeronautics"]
 author: ["Kayra Sari"]
 description: "A browser-based digital flight computer modeled after the classic E6B circular slide rule. Covers wind correction, time/speed/distance, fuel planning, true airspeed, density altitude, crosswind components, and top of descent — all computed client-side with a live vector diagram."
-summary: "A full-featured digital E6B built in React, replicating both the wind side and calculator side of the classic aviation flight computer with real-time outputs and an interactive wind vector canvas."
+summary: "A full-featured digital E6B built in vanilla JavaScript, replicating both the wind side and calculator side of the classic aviation flight computer with real-time outputs and an interactive wind vector canvas."
 ---
 
 > Live app: [thekayrasari.github.io/e6b](https://thekayrasari.github.io/e6b/) · [Source on GitHub](https://github.com/thekayrasari/e6b)
@@ -13,9 +13,9 @@ summary: "A full-featured digital E6B built in React, replicating both the wind 
 
 ## Abstract
 
-The E6B is the circular slide rule pilots have used for pre-flight planning since the 1940s. This project is a full-featured digital implementation built in React, replicating both sides of the physical device: the wind side for heading and groundspeed calculations, and the calculator side for time/speed/distance, fuel, airspeed, altitude, crosswind, and unit conversions.
+The E6B is the circular slide rule pilots have used for pre-flight planning since the 1940s. This project is a full-featured digital implementation built in vanilla JavaScript, replicating both sides of the physical device: the wind side for heading and groundspeed calculations, and the calculator side for time/speed/distance, fuel, airspeed, altitude, crosswind, and unit conversions.
 
-All computation runs client-side with no external dependencies beyond React and Vite. A Canvas 2D wind vector diagram renders the triangle of velocities in real time as inputs change.
+The entire application is a single self-contained `index.html` file — no framework, no build step, no dependencies. A Canvas 2D wind vector diagram renders the triangle of velocities in real time as inputs change.
 
 ---
 
@@ -61,31 +61,29 @@ TAS      = CAS / √(ρ/ρ₀)
 Mach     = TAS / (661.47 × √((OAT + 273.15) / 288.15))
 ```
 
-**Top of Descent (3° descent path)**
+**Top of Descent (3° descent path, geometry only)**
 
 ```
-TOD_nm = AltToLose / (300 × GS / 100)
+TOD_nm = ΔAlt / (tan(3°) × 6076 ft/nm) ≈ ΔAlt / 318.5
 ```
+
+GS affects the *time* to descend, not the distance; the distance is purely geometric.
 
 ---
 
 ## Implementation
 
-The project is a React 18 + Vite 5 single-page app. The wind vector diagram is drawn with the Canvas 2D API — no SVG, no charting library. Each calculator module is a standalone functional component with its own local state, so modules are fully independent and trivially extensible.
+The project is a single `index.html` file — no npm, no bundler, no runtime dependencies. The wind vector diagram is drawn with the Canvas 2D API. Each calculator module is a self-contained block of DOM update logic with no shared state; modules read directly from input values and write results into output containers via `innerHTML`.
 
 ```
 e6b/
-├── src/
-│   └── e6b.jsx      ← all components + calculation logic
-├── public/
-├── index.html
-├── vite.config.js
-└── package.json
+├── index.html   ← all calculation logic, UI, styles, and canvas rendering
+└── LICENSE
 ```
 
-Calculation functions are pure — they take numbers, return numbers, and have no side effects. This makes them easy to test, reuse, or port to other environments.
+Calculation functions are pure — they take numbers, return numbers, and have no DOM side effects. The canvas respects dark/light theming by reading CSS custom properties via `getComputedStyle` on every redraw.
 
-**Stack:** React 18 · Vite 5 · Canvas 2D API · CSS-in-JS · GitHub Pages
+**Stack:** HTML5 · CSS custom properties · Vanilla JS · Canvas 2D API · GitHub Pages
 
 ---
 
@@ -99,7 +97,7 @@ Calculation functions are pure — they take numbers, return numbers, and have n
 | TAS | CAS, pressure alt, OAT | TAS, Mach, density alt, ISA dev |
 | Altitude | indicated alt, QNH, OAT | pressure alt, density alt |
 | Crosswind | runway hdg, wind dir/speed | headwind, crosswind (L/R) |
-| TOD | alt to lose, GS | distance to start descent |
+| TOD | alt to lose | distance to start descent |
 
 ---
 
