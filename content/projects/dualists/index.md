@@ -12,14 +12,11 @@ authors:
   - Duru Sefa
   - Leman Ece Genclesen
   - Neva Yıldızlı
-description: "A student-led experiment at CERN's T9 beamline to demonstrate dual-readout calorimetry — simultaneously measuring scintillation and Cherenkov light to correct hadronic energy measurements on an event-by-event basis, directly connected to FCC-ee detector R&D."
-summary: "The experiment tests the **dual-readout calorimetry** principle — a technique at the frontier of particle detector design — using standard equipment already available at CERN's T9 beamline. No custom hardware required."
-tags: ["physics", "CERN", "particle physics", "calorimetry", "detector R&D", "FCC-ee"]
+description: "A characterization of dual-readout calorimetry principles at the CERN T9 beamline, focusing on event-by-event hadronic energy corrections for FCC-ee detector development."
+summary: "This study evaluates the simultaneous measurement of scintillation and Cherenkov radiation to improve energy resolution. Utilizing standard CERN T9 instrumentation, the experiment provides empirical data for future lepton collider detector requirements."
 ---
 
-The experiment tests the **dual-readout calorimetry** principle — a technique at the frontier of particle detector design — using standard equipment already available at CERN's T9 beamline. No custom hardware required.
-
-The experiment is a collaboration of ten students from **TED Ege College, Aydın, Turkey**, the same team behind the [RadiaTED Compton scattering proposal](/projects/radiated-bl4s).
+The project investigated the feasibility of dual-readout techniques for high-precision calorimetry, serving as a student-led contribution to the broader FCC-ee research and development roadmap.
 
 ---
 
