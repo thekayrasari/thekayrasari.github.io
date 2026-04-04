@@ -12,15 +12,12 @@ authors:
   - Duru Sefa
   - Leman Ece Genclesen
   - Neva Yıldızlı
-description: "A student-led experiment at CERN's T9 beamline to separate geometric and detector-induced contributions to timing resolution in Compton-based TOF systems, with direct implications for next-generation TOF-PET scanners."
-summary: "The experiment investigates how the geometry of Compton scattering contributes to the timing resolution of time-of-flight (TOF) detection systems — a question with direct consequences for the precision of PET scanners used in cancer imaging."
+description: "Analytical study of timing resolution components in Compton-scattering TOF systems, distinguishing geometric contributions from intrinsic detector performance."
+summary: "Research focused on isolating the geometric factors affecting timing resolution in Time-of-Flight (TOF) detection. The findings provide quantitative insights into the optimization of coincidence timing for next-generation PET-based medical imaging."
 tags: ["physics", "CERN", "particle physics", "PET imaging", "Geant4", "radiotherapy"]
 ---
 
-
-The experiment investigates how the geometry of Compton scattering contributes to the timing resolution of time-of-flight (TOF) detection systems — a question with direct consequences for the precision of PET scanners used in cancer imaging.
-
-The project is a collaboration of ten students from **TED Ege College, Aydın, Turkey**.
+Our research addressed the optimization of timing resolution in Compton-based TOF systems by systematically separating geometric variance from detector-induced noise.
 
 ---
 

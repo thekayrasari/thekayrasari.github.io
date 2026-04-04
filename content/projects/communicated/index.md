@@ -3,8 +3,8 @@ title: "CommunicaTED:   Communication On A Vertical Axis Using Cosmic Ray Muons"
 date: 2025-03-19
 tags: ["particle physics", "muon detection", "wireless communication", "cosmic rays", "Helmholtz coils"]
 author: ["Kayra Sari", "Arhan Hasan Ünsal", "Doruk Turan", "Doruk Utku Tarım", "Eren Demirel", "Tuna Şahin", "Uygar Yıldızcı", "Yağmur Sude Mersin", "Kaan Emre Karabacak"]
-description: "This paper proposes a novel telecommunication system that uses cosmic ray muons for wireless data transmission through solid obstructions. Presented at CERN Beamline for Schools Competition, 2025."
-summary: "This experiment demonstrates a proof-of-concept muon-based wireless communication system that modulates natural atmospheric muon flux using magnetic fields to encode binary information, enabling transmission through solid rock and water."
+description: "Design and proof-of-concept for a wireless data transmission system utilizing atmospheric muon flux modulation for high-density material penetration."
+summary: "This proposal outlines a telecommunication framework that employs magnetic field modulation to encode binary data into natural muon flux. The system is designed to facilitate data transfer through geological and aquatic barriers where electromagnetic signals are significantly attenuated."
 cover:
     alt: "Muon Communication Experimental Setup"
     relative: true
@@ -12,11 +12,8 @@ editPost:
     URL: ""
     Text: "CERN BL4S Competition"
 ---
----
 
-## Download
-
-[Download PDF](communicated.pdf)
+This research presents a proof-of-concept for a wireless communication channel established through the magnetic modulation of atmospheric muon trajectories.
 
 ---
 
