@@ -46,12 +46,12 @@ A low-level Linux kernel WMI driver providing comprehensive hardware control for
 
 | Model | BIOS | CPU Gen | Status |
 |-------|------|---------|--------|
-| EXCALIBUR G650 | any | 10th | ✅ Supported |
-| EXCALIBUR G670 | any | 10th | ✅ Supported |
-| EXCALIBUR G750 | any | 10th | ✅ Supported |
-| EXCALIBUR G900 | CP131 | 10th | ✅ Supported |
-| EXCALIBUR G870 | CQ141 | 12th | ✅ Supported |
-| EXCALIBUR G770 | CP221 | 12th | ✅ Supported |
+| EXCALIBUR G650 | any | 10th |  Supported |
+| EXCALIBUR G670 | any | 10th |  Supported |
+| EXCALIBUR G750 | any | 10th |  Supported |
+| EXCALIBUR G900 | CP131 | 10th |  Supported |
+| EXCALIBUR G870 | CQ141 | 12th |  Supported |
+| EXCALIBUR G770 | CP221 | 12th |  Supported |
 
 **Not listed?** The driver loads with a fallback quirk. See the README section *Adding New Models* to add your hardware's profile.
 
