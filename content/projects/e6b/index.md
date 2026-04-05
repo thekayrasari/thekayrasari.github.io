@@ -78,7 +78,6 @@ The project is a single `index.html` file — no npm, no bundler, no runtime dep
 ```
 e6b/
 ├── index.html   ← all calculation logic, UI, styles, and canvas rendering
-└── LICENSE
 ```
 
 Calculation functions are pure — they take numbers, return numbers, and have no DOM side effects. The canvas respects dark/light theming by reading CSS custom properties via `getComputedStyle` on every redraw.
