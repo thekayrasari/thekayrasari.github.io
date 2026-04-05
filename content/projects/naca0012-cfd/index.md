@@ -111,6 +111,5 @@ naca0012-cfd/
     year    = {2026},
     title   = {NACA 0012 CFD Simulator},
     url     = {https://github.com/thekayrasari/naca0012-cfd},
-    license = {MIT}
 }
 ```

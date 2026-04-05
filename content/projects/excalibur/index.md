@@ -11,9 +11,9 @@ A low-level Linux kernel WMI driver providing comprehensive hardware control for
 
 ## Overview
 
-**excalibur-wmi** is a GPL-2.0-licensed kernel driver that bridges the gap between Linux and the Excalibur laptop's proprietary ACPI/WMI hardware interface. Written in C with supporting Python and shell utilities, it enables full software control over keyboard backlighting, system cooling, and power profiles—features typically locked behind Windows-only firmware.
+**excalibur-wmi** is a kernel driver that bridges the gap between Linux and the Excalibur laptop's proprietary ACPI/WMI hardware interface. Written in C with supporting Python and shell utilities, it enables full software control over keyboard backlighting, system cooling, and power profiles—features typically locked behind Windows-only firmware.
 
-**Status:** Active development | **License:** GPL-2.0-or-later | **Kernel Support:** 5.15+ (6.4+ recommended)
+**Status:** Active development | **Kernel Support:** 5.15+ (6.4+ recommended)
 
 ---
 
@@ -200,13 +200,11 @@ All field manipulations use `FIELD_PREP()` macros—no manual bit-shifting.
 
 ```
 excalibur/
-├── excalibur.c           # Kernel driver (GPL-2.0)
 ├── Makefile              # Kernel build configuration
 ├── control-panel.py      # Textual TUI control center
 ├── install.sh            # Installation/uninstallation script
 ├── README.md             # Comprehensive documentation
 ├── CONTRIBUTING.md       # Contribution guidelines
-└── LICENSE               # GPL-2.0-or-later
 ```
 
 ---
@@ -243,7 +241,6 @@ This project serves as an excellent reference for:
 ## Links
 
 - **Repository:** [github.com/thekayrasari/excalibur](https://github.com/thekayrasari/excalibur)
-- **License:** GPL-2.0-or-later
 - **Author:** Kayra Sari
 - **WMI GUID:** `644C5791-B7B0-4123-A90B-E93876E0DAAD`
 
