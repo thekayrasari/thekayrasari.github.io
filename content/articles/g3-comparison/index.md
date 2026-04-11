@@ -616,6 +616,3 @@ Comparative analysis uses consistent baseline assumptions (standard atmosphere, 
 **Disclaimer:**
 This is independent analysis and is not endorsed by or affiliated with Cirrus Aircraft Corporation. Prospective buyers should conduct thorough due diligence, obtain demonstration flights, and consult with aviation professionals before making acquisition decisions.
 
----
-
-*Last Updated: February 2026*

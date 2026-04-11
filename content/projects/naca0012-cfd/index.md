@@ -15,6 +15,8 @@ summary: "An interactive CFD-style tool that models the NACA 0012 airfoil using 
 
 The NACA 0012 is one of the most extensively studied symmetric airfoil profiles in aeronautics, serving as a benchmark in both wind tunnel experiments and computational studies. This project is a self-contained, browser-based simulator that computes aerodynamic coefficients for the NACA 0012 across a user-defined range of angles of attack.
 
+This is a simulation-only tool and should be treated as an educational model rather than experimental validation.
+
 The simulation uses a viscous-corrected empirical model built on thin airfoil theory, incorporating Reynolds number effects and a hysteresis-aware stall onset model. All computation runs client-side with zero external dependencies — the page itself is the simulation.
 
 ---

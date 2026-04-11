@@ -368,9 +368,6 @@ Aviation safety is not a destination but a process. It is an endless cycle of le
 
 The skies are safe today not because we have eliminated all risks, but because we remain vigilant, responsive, and willing to learn from every event—no matter how far away its origins may lie.
 
-*Presented: December 22, 2025*
-*Last Updated: February 2026*
-
 ---
 
 *This article is based on publicly available information from regulatory documents (EASA AD 2025-0228E, FAA AD 2025-24-08), Airbus press releases and Alert Operators Transmissions, NTSB preliminary reports, and news coverage from aviation industry sources including Flight Global, Aviation Week, The Air Current, and others. Technical interpretations and analysis represent the author's understanding based on available information as of December 2025.*

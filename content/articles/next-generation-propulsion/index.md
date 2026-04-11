@@ -1,6 +1,6 @@
 ---
 title: "Optimizing Engine Architecture: Bypass and Compression Ratio Trade-offs in Next-Generation Propulsion"
-date: 2026-02-05
+date: 2025-10-14
 tags: ["aerospace engineering", "turbofan engines", "propulsion systems", "engine design", "CFM RISE", "sustainable aviation"]
 author: ["Kayra Sari"]
 description: "A comprehensive technical analysis of bypass ratio and overall pressure ratio optimization for next-generation aircraft engines, examining the thermodynamic and structural trade-offs that govern modern turbofan design."
@@ -647,8 +647,3 @@ Performance calculations based on established gas turbine theory (Brayton cycle 
 
 **Acknowledgments:**
 Special thanks to the aerospace engineering community for publishing detailed technical data on modern turbofan designs, enabling students to learn from real-world applications.
-
----
-
-*Presented: February 5, 2026*  
-*Last Updated: February 2026*
