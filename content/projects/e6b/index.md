@@ -1,6 +1,6 @@
 ---
 title: "E6B Flight Computer"
-date: 2026-03-06
+date: 2025-12-11
 tags: ["aviation", "flight planning", "navigation", "aeronautics"]
 author: ["Kayra Sari"]
 description: "A browser-based digital flight computer modeled after the classic E6B circular slide rule. Covers wind correction, time/speed/distance, fuel planning, true airspeed, density altitude, crosswind components, and top of descent — all computed client-side with a live vector diagram."
