@@ -1,6 +1,6 @@
 ---
 title: "ETOPS: How Twin-Engine Jets Earned the Right to Fly Oceans"
-date: 2026-03-12
+date: 2026-02-13
 tags: ["aviation", "ETOPS", "airline operations", "FAA regulations", "aviation safety", "oceanic flight", "twin-engine aircraft", "aerospace engineering"]
 author: ["Kayra Sari"]
 description: "A comprehensive technical examination of Extended-range Twin-engine Operational Performance Standards — tracing the regulatory evolution from the 60-minute rule to ETOPS-370, the engineering requirements that underpin approval, and the future of overwater operations in an era of ultra-long-range twinjets."
@@ -424,11 +424,6 @@ This is ultimately what distinguishes good safety regulation from reflexive caut
 The twin-engine jets flying oceanic routes today — carrying millions of passengers annually across the Pacific and Atlantic on two engines — represent the outcome of that 40-year regulatory project. They are among the safest passenger vehicles ever built, operating on the most thoroughly characterized and rigorously maintained engines in history. The ocean below them is vast, the alternates sparse, and the physics unforgiving.
 
 But the engines keep running. They almost always keep running. And that is the whole story.
-
----
-
-*Presented: March 2026*
-*Last Updated: March 2026*
 
 ---
 

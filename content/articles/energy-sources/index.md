@@ -1,6 +1,6 @@
 ---
 title: "Next-Generation Aircraft Propulsion: A Comparative Analysis of Aviation Energy Sources"
-date: 2026-02-08
+date: 2025-11-24
 tags: ["aerospace engineering", "sustainable aviation", "alternative fuels", "hydrogen propulsion", "SAF", "aviation decarbonization"]
 author: ["Kayra Sari"]
 description: "A comprehensive technical evaluation of aviation energy sources for next-generation aircraft propulsion systems, comparing conventional jet fuel, sustainable aviation fuels, hydrogen, LNG, and battery-electric options."
@@ -284,7 +284,3 @@ All energy density values are sourced from peer-reviewed aerospace engineering l
 
 **Contact:**
 For questions, corrections, or collaboration opportunities, please reach out via the contact page.
-
----
-
-*Last Updated: February 2026*
