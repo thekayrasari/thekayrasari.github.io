@@ -1,7 +1,7 @@
 ---
 title: "Excalibur WMI Driver"
 description: "Linux kernel WMI driver for Casper Excalibur gaming laptops"
-date: 2026-04-05
+date: 2025-08-23
 draft: false
 tags: ["linux", "kernel", "driver", "wmi", "acpi", "hardware", "c"]
 categories: ["projects"]
