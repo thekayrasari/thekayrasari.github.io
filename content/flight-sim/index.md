@@ -13,4 +13,4 @@ Here are a few moments captured during my virtual flights.
 ![](testing.jpg)
 ![](descent-planning.jpg)
 ![](flesland.jpg)
-![](holding-short.jpg.jpg)
+![](holding-short.jpg)
