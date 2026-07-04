@@ -51,7 +51,7 @@ params:
         url: /articles
       - name: Projects
         url: /projects
-      - name: Flight Sim Gallery
+      - name: Gallery
         url: /flight-sim
 
   socialIcons:
