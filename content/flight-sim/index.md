@@ -11,3 +11,6 @@ Here are a few moments captured during my virtual flights.
 ![](radials.jpg)
 ![](sunset.jpg)
 ![](testing.jpg)
+![](descent-planning.jpg)
+![](flesland.jpg)
+![](holding-short.jpg.jpg)
