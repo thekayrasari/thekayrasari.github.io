@@ -8,17 +8,14 @@ Welcome to my flight simulation gallery. When I am not immersed in coding or aer
 
 Here are a few moments captured during my virtual flights.
 
+![alt text](aurora.jpg "aurora")
+![alt text](classic.jpg "classic")
+![alt text](cloud-surfing.jpg "cloud-surfing")
+![alt text](eisone.jpg "eisone")
+![alt text](maalzeit.jpg "maalzeit")
+![alt text](oldschool.jpg "oldschool")
+![alt text](private.jpg "private")
+![alt text](radials.jpg "radials")
+![alt text](testing.jpg "testing")
 
 
-
-![classic](/flight-sim/classic.webp)
-![oldschool](/flight-sim/oldschool.webp)
-![radials](/flight-sim/radials.webp)
-![cloud-surfing](/flight-sim/cloud-surfing.webp)
-![eisone](/flight-sim/eisone.webp)
-![private](/flight-sim/private.webp)
-![testing](/flight-sim/testing.webp)
-![aurora](/flight-sim/aurora.webp)
-![maalzeit](/flight-sim/maalzeit.webp)
-![acp](/flight-sim/acp.webp)
-![burger](/flight-sim/burger.webp)
