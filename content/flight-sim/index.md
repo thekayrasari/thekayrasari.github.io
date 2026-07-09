@@ -8,9 +8,17 @@ Welcome to my flight simulation gallery. When I am not immersed in coding or aer
 
 Here are a few moments captured during my virtual flights.
 
-![](radials.jpg)
-![](sunset.jpg)
-![](testing.jpg)
-![](descent-planning.jpg)
-![](flesland.jpg)
-![](holding-short.jpg)
+
+
+
+![classic](classic.webp)
+![oldschool](oldschool.webp)
+![radials](radials.webp)
+![cloud-surfing](cloud-surfing.webp)
+![eisone](eisone.webp)
+![private](private.webp)
+![testing](testing.webp)
+![aurora](aurora.webp)
+![maalzeit](maalzeit.webp)
+![acp](acp.webp)
+![burger](burger.webp)
